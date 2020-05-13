@@ -1,7 +1,7 @@
 # Code Book
 This code book describes the variables, the data, and any transformations performed to clean up the data and arrive at the `tidy.txt` data set.
 
-#Data Description
+# Data Description
 
 # R Script Description
 The script `run_analysis.R` contains the code used to create the tidy data set. It does the following:
