@@ -75,5 +75,8 @@ names(tidy_data)<- gsub('[-()]', '', names(tidy_data))
 tidydata_final <- tidy_data %>%
         group_by(Subject, Activity) %>%
         summarise_all(list(mean = mean))
+
+names(tidydata_final) <- gsub("_mean$", "", names(tidydata_final))
 View(tidydata_final)
+
 write.table(tidydata_final, "tidy.txt", row.name=FALSE)
