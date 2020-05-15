@@ -5,21 +5,21 @@ This code book describes the variables, the data, and any transformations perfor
 
 The data is downloaded through the `run_analysis.R` script. You can also use the link found in the `README.md`. The following files were used to extract the necessary the datasets and create the finaly tidy dataset:
 
-'README.txt'
+`README.txt`
 
-'features_info.txt': Shows information about the variables used on the feature vector.
+`features_info.txt`: Shows information about the variables used on the feature vector.
 
-'features.txt': List of all features.
+`features.txt`: List of all features.
 
-'activity_labels.txt': Lists the activity name and corresponding code number.
+`activity_labels.txt`: Lists the activity name and corresponding code number.
 
-'train/X_train.txt': Training set.
+`train/X_train.txt`: Training set.
 
-'train/y_train.txt': Training labels.
+`train/y_train.txt`: Training labels.
 
-'test/X_test.txt': Test set.
+`test/X_test.txt`: Test set.
 
-'test/y_test.txt': Test labels.
+`test/y_test.txt`: Test labels.
 
 # R Script Description
 The script `run_analysis.R` contains the code used to create the tidy data set. It does the following:
